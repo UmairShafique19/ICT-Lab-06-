@@ -1,0 +1,111 @@
+
+body {
+  background-color: #c9d6d0;
+  font-family: "Century Gothic", Futura, Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+#container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color:white;
+  border: 3px solid #e6f1ee;}
+
+#header {
+  background-color: #a8e6d6;
+  border: 2px solid #e6f1ee;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  text-align: right;
+}
+
+#site-title {
+  font-family: "Century Gothic", Futura, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  color: #1f8f80;
+  margin: 0;
+}
+
+#tagline {
+  font-weight: normal;
+  font-size: 16px;
+  color: #1f8f80;
+  margin: 0;
+}
+
+
+#sidebar {
+  float: left;
+  width: 210px;
+  background-color: #2bb5a8;
+  border: 6px solid #0f5f58;
+  margin: 0 15px 15px 0;
+  padding: 10px;
+  color: white;
+}
+
+#sidebar h2 {
+  font-weight: bold;
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  color: #1f7f76;
+}
+
+#sidebar ul {
+  margin: 0;
+  padding-left: 25px;
+}
+
+#sidebar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ 
+#entries {
+  float: right;
+  width: 640px;
+}
+
+.entry {
+  border: 2px solid #cfe8e2;
+  background-color: #f2faf8;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  overflow: hidden; 
+}
+
+.entry-title {
+  font-weight: normal;
+  font-size: 30px;
+  color: #1f8f80;
+  margin: 0 0 10px 0;
+}
+
+.entry-date {
+  font-weight: bold;
+  border-bottom: 2px dashed blue;
+}
+
+.entry-text {
+  font-weight: normal;
+  font-size: 16px;
+  color: #b05050;
+  margin: 0;
+}
+
+.entry-photo {
+  float: right;
+  margin: 0 0 10px 15px;
+  border: 1px solid #999;
+}
+
+
+#clear {
+  clear: both;
+  
+}
